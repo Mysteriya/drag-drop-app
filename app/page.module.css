@@ -1,0 +1,45 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.app{
+  width: 100vw;
+  height: 50vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.board{
+  min-width: 300px;
+  min-height: 400px;
+
+  border: 5px solid lightgreen;
+  padding: 20px 10px;
+  border-radius: 20px;
+
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board__title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+}
+
+.item {
+  width: 100%;
+  border: 2px solid lightblue;
+  border-radius: 6px;
+  margin: 5px 0;
+  cursor: grab;
+  background-color: #fcfcf9;
+  color: black;
+}
